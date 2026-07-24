@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Chat template settings determine whether Qwen3's thinking mode survives fine-tuning
 
 Two of our Qwen3-8B fine-tunes, built on different versions of the same corpus, came out with opposite abilities. One kept the model's hybrid thinking mode, where passing `think: true` makes it deliberate in a hidden channel before answering and passing `think: false` makes it answer directly. The other lost thinking entirely. The flag does nothing, and the thinking field comes back empty on every request across every random seed. Training loss looked normal, the voice was intact, and nothing in our evaluations noticed. The builds differed in more than one way, but the cause turned out to be the chat template. A later retrain through the surviving build's template restored the capability, and a recent paper isolated the mechanism.

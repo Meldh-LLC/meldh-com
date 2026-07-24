@@ -39,5 +39,9 @@ markdown_extensions:
   - toc:
       permalink: true
 
+copyright: "© 2026 Meldh LLC"
+
 nav:
   - Home: index.md
+  - Writing:
+      - writing/qwen3-template-thinking.md

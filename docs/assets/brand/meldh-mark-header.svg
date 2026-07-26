@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Meldh mark</title>
+  <desc id="desc">A compact open book, pillar, moon, and centered point.</desc>
+  <g fill="#20282d">
+    <path d="M20 37c19-3 36 3 49 15v70c-15-9-31-12-49-8V37Z"/>
+    <path d="M140 37c-19-3-36 3-49 15v70c15-9 31-12 49-8V37Z"/>
+    <circle cx="80" cy="45" r="17"/>
+    <path d="M74 61h12v55H74zM63 114h34v9H63zM51 123h58v10H51z"/>
+  </g>
+  <circle cx="80" cy="45" r="6" fill="#a84d24"/>
+</svg>

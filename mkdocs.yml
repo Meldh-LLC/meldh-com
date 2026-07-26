@@ -1,31 +1,44 @@
 site_name: Meldh
-site_description: Research and findings
+site_description: Meldh LLC builds consumer AI products and publishes reproducible research on model training and evaluation.
 site_url: https://meldh.com
+site_author: Meldh LLC
 
 theme:
   name: material
+  custom_dir: overrides
+  font: false
+  logo: assets/brand/meldh-mark-header.svg
+  favicon: assets/brand/meldh-mark-header.svg
   palette:
     - scheme: default
       primary: blue grey
-      accent: indigo
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
       primary: blue grey
-      accent: indigo
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
     - navigation.tracking
     - navigation.top
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Meldh-LLC
+      name: Meldh LLC on GitHub
 
 plugins:
   - search
@@ -35,6 +48,7 @@ markdown_extensions:
   - footnotes
   - tables
   - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - toc:
@@ -43,6 +57,6 @@ markdown_extensions:
 copyright: "© 2026 Meldh LLC"
 
 nav:
-  - Home: index.md
+  - Meldh: index.md
   - Writing:
       - writing/qwen3-template-thinking.md

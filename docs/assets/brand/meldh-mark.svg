@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Meldh Moon Archive mark</title>
+  <desc id="desc">An open book surrounds a pillar supporting a dark moon with a bronze point at its center.</desc>
+  <g fill="#20282d">
+    <path d="M18 33C36 29 54 34 69 48v75c-16-11-33-14-51-10V33Z"/>
+    <path d="M142 33c-18-4-36 1-51 15v75c16-11 33-14 51-10V33Z"/>
+    <path d="M12 41c18-6 39-3 61 8v4C50 43 31 41 12 47v71c21-6 41-3 61 9v5c-21-12-41-16-61-9V41Z" opacity=".58"/>
+    <path d="M148 41c-18-6-39-3-61 8v4c23-10 42-12 61-6v71c-21-6-41-3-61 9v5c21-12 41-16 61-9V41Z" opacity=".58"/>
+    <circle cx="80" cy="43" r="18"/>
+    <path d="M70 60h20v6H70zM75 66h10v47H75zM68 113h24v6H68zM60 119h40v7H60zM51 126h58v7H51z"/>
+  </g>
+  <circle cx="80" cy="43" r="6" fill="#a84d24"/>
+</svg>

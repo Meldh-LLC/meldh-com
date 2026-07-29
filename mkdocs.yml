@@ -58,5 +58,4 @@ copyright: "© 2026 Meldh LLC"
 
 nav:
   - Meldh: index.md
-  - Writing:
-      - writing/qwen3-template-thinking.md
+  - Research: research/index.md

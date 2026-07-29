@@ -248,34 +248,6 @@ body:has(.article-meta) .md-typeset h1 {
   line-height: 1.55;
 }
 
-.meldh-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .65rem;
-  margin-top: 2rem;
-}
-
-.md-typeset .md-button {
-  border-color: var(--meldh-ink);
-  border-radius: 0;
-  color: var(--meldh-ink);
-  font-size: .72rem;
-  letter-spacing: .03em;
-}
-
-.md-typeset .md-button--primary {
-  border-color: var(--meldh-ink);
-  background: var(--meldh-ink);
-  color: var(--meldh-paper-raised);
-}
-
-.md-typeset .md-button:hover,
-.md-typeset .md-button--primary:hover {
-  border-color: var(--meldh-copper);
-  background: var(--meldh-copper);
-  color: #fff;
-}
-
 .meldh-section {
   padding: 3.7rem 0;
   border-top: 1px solid var(--meldh-line);

@@ -49,4 +49,5 @@ hide:
 <section class="meldh-contact" aria-label="Contact Meldh">
   <p class="meldh-eyebrow">Contact</p>
   <p>Questions about our work? Email <a href="mailto:contact@meldh.com">contact@meldh.com</a>.</p>
+  <p><a href="privacy/">Privacy</a> · <a href="terms/">Terms</a> · <a href="https://olune.ai/">Olune</a></p>
 </section>

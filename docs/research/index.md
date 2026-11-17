@@ -17,8 +17,8 @@ hide:
   </div>
   <article class="meldh-feature">
     <div class="meldh-feature-meta">Research note 01 · July 24, 2026</div>
-    <h3><a href="../writing/qwen3-template-thinking/">Chat template settings determine whether Qwen3's thinking mode survives fine-tuning</a></h3>
-    <p>Answer-only fine-tuning through an empty-think template erased Qwen3's deliberation in one of our builds. We trace the mechanism, measure an 11 to 13 point reduction in false-premise fabrication when thinking survives, and show how a serving template can invalidate the experiment.</p>
+    <h3><a href="../writing/qwen3-template-thinking/">How chat templates can affect Qwen3 thinking after fine-tuning</a></h3>
+    <p>Two Qwen3-8B fine-tunes differed in whether they returned a thinking trace. We tested answers to false premises. In a later experiment, the server used a different template from the one we requested.</p>
     <a class="meldh-text-link" href="../writing/qwen3-template-thinking/">Read the research note <span aria-hidden="true">→</span></a>
   </article>
 </section>

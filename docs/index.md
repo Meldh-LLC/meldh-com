@@ -17,8 +17,8 @@ hide:
   </div>
   <article class="meldh-feature">
     <div class="meldh-feature-meta">Research note 01 · July 24, 2026</div>
-    <h3><a href="writing/qwen3-template-thinking/">Chat template settings determine whether Qwen3's thinking mode survives fine-tuning</a></h3>
-    <p>In one of our builds, answer-only fine-tuning with an empty-think template erased Qwen3's ability to deliberate. Preserving thinking cut false-premise fabrication by 11 to 13 points. We also found that a serving template can undo the result.</p>
+    <h3><a href="writing/qwen3-template-thinking/">How chat templates can affect Qwen3 thinking after fine-tuning</a></h3>
+    <p>Two Qwen3-8B fine-tunes differed in whether they returned a thinking trace. We tested answers to false premises. In a later experiment, the server used a different template from the one we requested.</p>
     <a class="meldh-text-link" href="writing/qwen3-template-thinking/">Read the research note <span aria-hidden="true">→</span></a>
   </article>
 </section>
@@ -31,12 +31,12 @@ hide:
     <div>
       <span class="meldh-index">01</span>
       <h3>Training</h3>
-      <p>We explain which settings changed the model and where the findings may not apply.</p>
+      <p>We explain the settings we tested and where the findings may not apply.</p>
     </div>
     <div>
       <span class="meldh-index">02</span>
       <h3>Evaluation</h3>
-      <p>We publish the benchmarks and checks, including controls for the test harness and serving setup.</p>
+      <p>We describe our benchmarks and checks, including controls for the test harness and serving setup.</p>
     </div>
     <div>
       <span class="meldh-index">03</span>

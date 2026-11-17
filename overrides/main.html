@@ -34,16 +34,17 @@
         "sameAs": ["https://github.com/Meldh-LLC"]
       }
     </script>
-  {% elif page and page.file.src_uri == "writing/qwen3-template-thinking.md" %}
+  {% elif page and page.meta and page.meta.og_type == "article" and (page.meta.published_date or page.file.src_uri == "writing/qwen3-template-thinking.md") %}
+    {% set is_qwen = page.file.src_uri == "writing/qwen3-template-thinking.md" %}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "TechArticle",
-        "headline": "How chat templates can affect Qwen3 thinking after fine-tuning",
-        "description": "A Qwen3-8B case study on chat templates, thinking after fine-tuning, false-premise fabrication, and the difference between configured and served templates.",
-        "datePublished": "2026-07-24",
-        "dateModified": "2026-11-17",
-        "mainEntityOfPage": "https://meldh.com/writing/qwen3-template-thinking/",
+        "@type": {{ ("TechArticle" if is_qwen else "Article") | tojson }},
+        "headline": {{ page.title | tojson }},
+        "description": {{ page_description | tojson }},
+        "datePublished": {{ ("2026-07-24" if is_qwen else page.meta.published_date) | tojson }},{% if is_qwen %}
+        "dateModified": "2026-11-17",{% endif %}
+        "mainEntityOfPage": {{ page.canonical_url | tojson }},
         "image": "https://meldh.com/assets/images/meldh-social-clean.png",
         "author": {
           "@type": "Organization",

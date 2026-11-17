@@ -16,6 +16,12 @@ hide:
     <h2 id="research-notes" class="meldh-eyebrow">Published work</h2>
   </div>
   <article class="meldh-feature">
+    <div class="meldh-feature-meta">Research note 02 · November 17, 2026</div>
+    <h3><a href="../writing/when-good-philosophy-gets-the-situation-wrong/">When good philosophy gets the situation wrong</a></h3>
+    <p>A library volunteer agrees to help for one afternoon. What should happen to the advice when an answer treats that as a promise to run a weekly club?</p>
+    <a class="meldh-text-link" href="../writing/when-good-philosophy-gets-the-situation-wrong/">Read the research note <span aria-hidden="true">→</span></a>
+  </article>
+  <article class="meldh-feature">
     <div class="meldh-feature-meta">Research note 01 · July 24, 2026</div>
     <h3><a href="../writing/qwen3-template-thinking/">How chat templates can affect Qwen3 thinking after fine-tuning</a></h3>
     <p>Two Qwen3-8B fine-tunes differed in whether they returned a thinking trace. We tested answers to false premises. In a later experiment, the server used a different template from the one we requested.</p>

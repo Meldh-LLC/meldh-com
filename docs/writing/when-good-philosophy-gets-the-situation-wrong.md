@@ -1,7 +1,7 @@
 ---
 description: A fictional library mix-up shows how philosophical advice can turn a one-time favor into an obligation. What should change when the person corrects the facts?
 og_type: article
-published_date: "2026-11-17"
+published_date: 2026-11-17
 hide:
   - navigation
 ---

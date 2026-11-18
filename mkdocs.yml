@@ -1,5 +1,5 @@
 site_name: Meldh
-site_description: Meldh LLC builds consumer AI products and publishes reproducible research on model training and evaluation.
+site_description: Meldh LLC builds consumer AI products and publishes research on model training and evaluation.
 site_url: https://meldh.com
 site_author: Meldh LLC
 
@@ -30,6 +30,9 @@ theme:
     - search.highlight
     - content.code.copy
 
+extra_javascript:
+  - javascripts/navigation.js
+
 extra_css:
   - stylesheets/extra.css
 
@@ -39,6 +42,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Meldh-LLC
       name: Meldh LLC on GitHub
+
+hooks:
+  - hooks/articles.py
 
 plugins:
   - search

@@ -1,0 +1,11 @@
+{% set notes = pages | map(attribute="page") | selectattr("meta.published_date", "defined") | sort(attribute="meta.published_date", reverse=true) %}
+{% for note in notes %}
+  {% if page.file.src_uri != "index.md" or loop.first %}
+    {% set date = note.meta.published_date %}
+    <article class="meldh-feature">
+      <time class="meldh-feature-meta" datetime="{{ date }}">{{ date.strftime("%B") }} {{ date.day }}, {{ date.year }}</time>
+      <h3><a href="{{ note.url | url }}">{{ note.title | e }}</a></h3>
+      <p>{{ note.meta.description | e }}</p>
+    </article>
+  {% endif %}
+{% endfor %}

@@ -1,11 +1,14 @@
 ---
 description: A Qwen3-8B case study on chat templates, thinking after fine-tuning, false-premise fabrication, and the difference between configured and served templates.
 og_type: article
+published_date: 2026-07-24
+modified_date: 2026-11-17
+schema_type: TechArticle
 hide:
   - navigation
 ---
 
-# How chat templates can affect Qwen3 thinking after fine-tuning
+# <span class="legacy-anchor" id="chat-template-settings-determine-whether-qwen3s-thinking-mode-survives-fine-tuning" aria-hidden="true"></span>How chat templates can affect Qwen3 thinking after fine-tuning
 
 <p class="article-meta">Published July 24, 2026 · Corrected November 17, 2026 · Meldh LLC</p>
 
@@ -60,7 +63,7 @@ A person who misremembers a quotation may be asking a perfectly reasonable quest
 
 We checked the answer key before scoring. Language-model judges saw responses under shuffled identifiers that concealed which configuration produced them. A second review challenged fabrication and factual-error ratings against the key. In the original three-condition comparison, 308 of 864 trials initially received a fabrication label and 176 a factual-error label. The recheck cleared 17 of those 484 flags (3.5%). Revisiting the explanation for a flag could leave the error rating in place. A separate check identified two previously unflagged errors. These rates depend in part on the judgments made under that procedure.
 
-## Fewer answers received a fabrication rating with thinking enabled
+## <span class="legacy-anchor" id="deliberation-measurably-reduces-fabrication-under-false-premises" aria-hidden="true"></span>Fewer answers received a fabrication rating with thinking enabled
 
 On the base model, the rate fell from 54.0% (94/174) with thinking off to 40.8% (71/174) with it on. Looking at the same request and seed under both settings, 47 answers lost the fabrication label and 24 acquired it. On the 114 true-premise trials, accuracy rose from 35.1% to 41.2%, while over-hedging changed from 10.5% to 11.4%. Some traces showed the model questioning an attribution before it answered.
 

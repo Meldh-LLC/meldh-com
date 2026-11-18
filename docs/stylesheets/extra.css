@@ -494,6 +494,7 @@ body:has(.article-meta) .md-typeset h1 {
 }
 
 @media screen and (max-width: 22.5em) {
+  .meldh-header-research { margin-inline: .1rem; }
   .md-content__inner:has(.meldh-hero) { padding-top: .45rem; }
   .meldh-hero { padding: .7rem 0 1rem; }
   .meldh-hero h1 { font-size: 1.5rem; margin-block: .35rem .65rem; }
